@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320AD3DA1C71F51E0029A68E /* blecar_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 320AD3D91C71F51E0029A68E /* blecar_img.png */; };
+		32EE4FFC1C6FC1B300409EB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EE4FFB1C6FC1B300409EB0 /* main.m */; };
+		32EE4FFF1C6FC1B300409EB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EE4FFE1C6FC1B300409EB0 /* AppDelegate.m */; };
+		32EE50021C6FC1B300409EB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EE50011C6FC1B300409EB0 /* ViewController.m */; };
+		32EE50051C6FC1B300409EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EE50031C6FC1B300409EB0 /* Main.storyboard */; };
+		32EE50071C6FC1B400409EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EE50061C6FC1B400409EB0 /* Assets.xcassets */; };
+		32EE500A1C6FC1B400409EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EE50081C6FC1B400409EB0 /* LaunchScreen.storyboard */; };
+		32EE50151C6FC1B400409EB0 /* BleCarControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EE50141C6FC1B400409EB0 /* BleCarControlTests.m */; };
+		32EE50201C6FC1B400409EB0 /* BleCarControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EE501F1C6FC1B400409EB0 /* BleCarControlUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32EE50111C6FC1B400409EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32EE4FEF1C6FC1B300409EB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32EE4FF61C6FC1B300409EB0;
+			remoteInfo = BleCarControl;
+		};
+		32EE501C1C6FC1B400409EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32EE4FEF1C6FC1B300409EB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32EE4FF61C6FC1B300409EB0;
+			remoteInfo = BleCarControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		320AD3D91C71F51E0029A68E /* blecar_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blecar_img.png; sourceTree = "<group>"; };
+		32EE4FF71C6FC1B300409EB0 /* BleCarControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BleCarControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EE4FFB1C6FC1B300409EB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32EE4FFD1C6FC1B300409EB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32EE4FFE1C6FC1B300409EB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32EE50001C6FC1B300409EB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32EE50011C6FC1B300409EB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32EE50041C6FC1B300409EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32EE50061C6FC1B400409EB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32EE50091C6FC1B400409EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32EE500B1C6FC1B400409EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EE50101C6FC1B400409EB0 /* BleCarControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BleCarControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EE50141C6FC1B400409EB0 /* BleCarControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BleCarControlTests.m; sourceTree = "<group>"; };
+		32EE50161C6FC1B400409EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EE501B1C6FC1B400409EB0 /* BleCarControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BleCarControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EE501F1C6FC1B400409EB0 /* BleCarControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BleCarControlUITests.m; sourceTree = "<group>"; };
+		32EE50211C6FC1B400409EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32EE4FF41C6FC1B300409EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EE500D1C6FC1B400409EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EE50181C6FC1B400409EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32EE4FEE1C6FC1B300409EB0 = {
+			isa = PBXGroup;
+			children = (
+				32EE4FF91C6FC1B300409EB0 /* BleCarControl */,
+				32EE50131C6FC1B400409EB0 /* BleCarControlTests */,
+				32EE501E1C6FC1B400409EB0 /* BleCarControlUITests */,
+				32EE4FF81C6FC1B300409EB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32EE4FF81C6FC1B300409EB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32EE4FF71C6FC1B300409EB0 /* BleCarControl.app */,
+				32EE50101C6FC1B400409EB0 /* BleCarControlTests.xctest */,
+				32EE501B1C6FC1B400409EB0 /* BleCarControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32EE4FF91C6FC1B300409EB0 /* BleCarControl */ = {
+			isa = PBXGroup;
+			children = (
+				32EE4FFD1C6FC1B300409EB0 /* AppDelegate.h */,
+				32EE4FFE1C6FC1B300409EB0 /* AppDelegate.m */,
+				32EE50001C6FC1B300409EB0 /* ViewController.h */,
+				32EE50011C6FC1B300409EB0 /* ViewController.m */,
+				32EE50031C6FC1B300409EB0 /* Main.storyboard */,
+				32EE50061C6FC1B400409EB0 /* Assets.xcassets */,
+				32EE50081C6FC1B400409EB0 /* LaunchScreen.storyboard */,
+				32EE500B1C6FC1B400409EB0 /* Info.plist */,
+				32EE4FFA1C6FC1B300409EB0 /* Supporting Files */,
+			);
+			path = BleCarControl;
+			sourceTree = "<group>";
+		};
+		32EE4FFA1C6FC1B300409EB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				320AD3D91C71F51E0029A68E /* blecar_img.png */,
+				32EE4FFB1C6FC1B300409EB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32EE50131C6FC1B400409EB0 /* BleCarControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				32EE50141C6FC1B400409EB0 /* BleCarControlTests.m */,
+				32EE50161C6FC1B400409EB0 /* Info.plist */,
+			);
+			path = BleCarControlTests;
+			sourceTree = "<group>";
+		};
+		32EE501E1C6FC1B400409EB0 /* BleCarControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32EE501F1C6FC1B400409EB0 /* BleCarControlUITests.m */,
+				32EE50211C6FC1B400409EB0 /* Info.plist */,
+			);
+			path = BleCarControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32EE4FF61C6FC1B300409EB0 /* BleCarControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EE50241C6FC1B400409EB0 /* Build configuration list for PBXNativeTarget "BleCarControl" */;
+			buildPhases = (
+				32EE4FF31C6FC1B300409EB0 /* Sources */,
+				32EE4FF41C6FC1B300409EB0 /* Frameworks */,
+				32EE4FF51C6FC1B300409EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BleCarControl;
+			productName = BleCarControl;
+			productReference = 32EE4FF71C6FC1B300409EB0 /* BleCarControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32EE500F1C6FC1B400409EB0 /* BleCarControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EE50271C6FC1B400409EB0 /* Build configuration list for PBXNativeTarget "BleCarControlTests" */;
+			buildPhases = (
+				32EE500C1C6FC1B400409EB0 /* Sources */,
+				32EE500D1C6FC1B400409EB0 /* Frameworks */,
+				32EE500E1C6FC1B400409EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32EE50121C6FC1B400409EB0 /* PBXTargetDependency */,
+			);
+			name = BleCarControlTests;
+			productName = BleCarControlTests;
+			productReference = 32EE50101C6FC1B400409EB0 /* BleCarControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32EE501A1C6FC1B400409EB0 /* BleCarControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EE502A1C6FC1B400409EB0 /* Build configuration list for PBXNativeTarget "BleCarControlUITests" */;
+			buildPhases = (
+				32EE50171C6FC1B400409EB0 /* Sources */,
+				32EE50181C6FC1B400409EB0 /* Frameworks */,
+				32EE50191C6FC1B400409EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32EE501D1C6FC1B400409EB0 /* PBXTargetDependency */,
+			);
+			name = BleCarControlUITests;
+			productName = BleCarControlUITests;
+			productReference = 32EE501B1C6FC1B400409EB0 /* BleCarControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32EE4FEF1C6FC1B300409EB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "io-expert.com";
+				TargetAttributes = {
+					32EE4FF61C6FC1B300409EB0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					32EE500F1C6FC1B400409EB0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 32EE4FF61C6FC1B300409EB0;
+					};
+					32EE501A1C6FC1B400409EB0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 32EE4FF61C6FC1B300409EB0;
+					};
+				};
+			};
+			buildConfigurationList = 32EE4FF21C6FC1B300409EB0 /* Build configuration list for PBXProject "BleCarControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32EE4FEE1C6FC1B300409EB0;
+			productRefGroup = 32EE4FF81C6FC1B300409EB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32EE4FF61C6FC1B300409EB0 /* BleCarControl */,
+				32EE500F1C6FC1B400409EB0 /* BleCarControlTests */,
+				32EE501A1C6FC1B400409EB0 /* BleCarControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32EE4FF51C6FC1B300409EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EE500A1C6FC1B400409EB0 /* LaunchScreen.storyboard in Resources */,
+				32EE50071C6FC1B400409EB0 /* Assets.xcassets in Resources */,
+				320AD3DA1C71F51E0029A68E /* blecar_img.png in Resources */,
+				32EE50051C6FC1B300409EB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EE500E1C6FC1B400409EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EE50191C6FC1B400409EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32EE4FF31C6FC1B300409EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EE50021C6FC1B300409EB0 /* ViewController.m in Sources */,
+				32EE4FFF1C6FC1B300409EB0 /* AppDelegate.m in Sources */,
+				32EE4FFC1C6FC1B300409EB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EE500C1C6FC1B400409EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EE50151C6FC1B400409EB0 /* BleCarControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EE50171C6FC1B400409EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EE50201C6FC1B400409EB0 /* BleCarControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32EE50121C6FC1B400409EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32EE4FF61C6FC1B300409EB0 /* BleCarControl */;
+			targetProxy = 32EE50111C6FC1B400409EB0 /* PBXContainerItemProxy */;
+		};
+		32EE501D1C6FC1B400409EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32EE4FF61C6FC1B300409EB0 /* BleCarControl */;
+			targetProxy = 32EE501C1C6FC1B400409EB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32EE50031C6FC1B300409EB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32EE50041C6FC1B300409EB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32EE50081C6FC1B400409EB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32EE50091C6FC1B400409EB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32EE50221C6FC1B400409EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32EE50231C6FC1B400409EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32EE50251C6FC1B400409EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BleCarControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.io-expert.com.BleCarControl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32EE50261C6FC1B400409EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BleCarControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.io-expert.com.BleCarControl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32EE50281C6FC1B400409EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BleCarControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.io-expert.com.BleCarControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BleCarControl.app/BleCarControl";
+			};
+			name = Debug;
+		};
+		32EE50291C6FC1B400409EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BleCarControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.io-expert.com.BleCarControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BleCarControl.app/BleCarControl";
+			};
+			name = Release;
+		};
+		32EE502B1C6FC1B400409EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BleCarControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.io-expert.com.BleCarControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BleCarControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		32EE502C1C6FC1B400409EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BleCarControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.io-expert.com.BleCarControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BleCarControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32EE4FF21C6FC1B300409EB0 /* Build configuration list for PBXProject "BleCarControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EE50221C6FC1B400409EB0 /* Debug */,
+				32EE50231C6FC1B400409EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EE50241C6FC1B400409EB0 /* Build configuration list for PBXNativeTarget "BleCarControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EE50251C6FC1B400409EB0 /* Debug */,
+				32EE50261C6FC1B400409EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EE50271C6FC1B400409EB0 /* Build configuration list for PBXNativeTarget "BleCarControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EE50281C6FC1B400409EB0 /* Debug */,
+				32EE50291C6FC1B400409EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EE502A1C6FC1B400409EB0 /* Build configuration list for PBXNativeTarget "BleCarControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EE502B1C6FC1B400409EB0 /* Debug */,
+				32EE502C1C6FC1B400409EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32EE4FEF1C6FC1B300409EB0 /* Project object */;
+}

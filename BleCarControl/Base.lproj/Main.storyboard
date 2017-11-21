@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffG-d5-uWw">
+                                <rect key="frame" x="0.0" y="300" width="600" height="300"/>
+                                <color key="backgroundColor" red="1" green="0.66308499118082997" blue="0.74590032439737408" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Backward"/>
+                                <connections>
+                                    <action selector="backwardStart:" destination="BYZ-38-t0r" eventType="touchDown" id="Kil-E8-J12"/>
+                                    <action selector="moveStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7DP-IN-skp"/>
+                                    <action selector="moveStop:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Xmq-GY-BZe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3F-6G-NCO">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                <color key="backgroundColor" red="0.67064625146535051" green="1" blue="0.69684266320969024" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Forward"/>
+                                <connections>
+                                    <action selector="forwardStart:" destination="BYZ-38-t0r" eventType="touchDown" id="kcp-gV-YxC"/>
+                                    <action selector="moveStop:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="0vP-7n-VA1"/>
+                                    <action selector="moveStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kEM-Mw-UcF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bmn-f2-KyC">
+                                <rect key="frame" x="0.0" y="20" width="141" height="50"/>
+                                <color key="backgroundColor" red="0.0457926668" green="0.86962123690000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="18U-2w-dhC"/>
+                                    <constraint firstAttribute="height" constant="50" id="3Fg-V2-bHe"/>
+                                </constraints>
+                                <state key="normal" title="Forward Left"/>
+                                <connections>
+                                    <action selector="forwardLeftStart:" destination="BYZ-38-t0r" eventType="touchDown" id="jvf-Ms-TOX"/>
+                                    <action selector="moveStop:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="XIq-Mg-JhL"/>
+                                    <action selector="moveStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xXQ-FZ-Pl5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPn-X9-2Gr">
+                                <rect key="frame" x="0.0" y="550" width="141" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.02053295671066202" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="aqZ-go-tgm"/>
+                                </constraints>
+                                <state key="normal" title="Backward Left">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="backwardLeftStart:" destination="BYZ-38-t0r" eventType="touchDown" id="cUh-jH-RYv"/>
+                                    <action selector="moveStop:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="eGS-tM-o38"/>
+                                    <action selector="moveStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sqX-QC-G26"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maT-sy-T71">
+                                <rect key="frame" x="459" y="550" width="141" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.010267665139986448" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Backward Right">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="backwardRightStart:" destination="BYZ-38-t0r" eventType="touchDown" id="Apk-RB-TRZ"/>
+                                    <action selector="moveStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U61-3I-29o"/>
+                                    <action selector="moveStop:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="i9Z-C1-CLH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17B-xM-sou">
+                                <rect key="frame" x="459" y="20" width="141" height="50"/>
+                                <color key="backgroundColor" red="0.0457926668" green="0.86962123690000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="a7w-OH-jZT"/>
+                                </constraints>
+                                <state key="normal" title="Forward Right"/>
+                                <connections>
+                                    <action selector="forwardRightStart:" destination="BYZ-38-t0r" eventType="touchDown" id="HEd-2s-htT"/>
+                                    <action selector="moveStop:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="ibr-th-JbY"/>
+                                    <action selector="moveStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l3f-wA-C9z"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blecar_img.png" translatesAutoresizingMaskIntoConstraints="NO" id="ki7-w8-f1v">
+                                <rect key="frame" x="172" y="172" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ki7-w8-f1v" secondAttribute="height" multiplier="1:1" id="TYQ-2V-fkH"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="17B-xM-sou" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="1vH-q0-185"/>
+                            <constraint firstItem="17B-xM-sou" firstAttribute="leading" secondItem="maT-sy-T71" secondAttribute="leading" id="3fl-Yb-GBa"/>
+                            <constraint firstItem="ffG-d5-uWw" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="8XM-xQ-Qcs"/>
+                            <constraint firstItem="maT-sy-T71" firstAttribute="top" secondItem="ZPn-X9-2Gr" secondAttribute="top" id="Atz-pk-5JL"/>
+                            <constraint firstItem="17B-xM-sou" firstAttribute="baseline" secondItem="Bmn-f2-KyC" secondAttribute="firstBaseline" id="CdY-YB-ZnJ"/>
+                            <constraint firstItem="ffG-d5-uWw" firstAttribute="width" secondItem="U3F-6G-NCO" secondAttribute="width" id="DJO-u9-5js"/>
+                            <constraint firstItem="Bmn-f2-KyC" firstAttribute="trailing" secondItem="ZPn-X9-2Gr" secondAttribute="trailing" id="E9R-aq-Fxm"/>
+                            <constraint firstItem="U3F-6G-NCO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="FbQ-Uj-qkd"/>
+                            <constraint firstItem="Bmn-f2-KyC" firstAttribute="leading" secondItem="U3F-6G-NCO" secondAttribute="leading" id="GeX-dd-IJd"/>
+                            <constraint firstItem="ki7-w8-f1v" firstAttribute="width" secondItem="ffG-d5-uWw" secondAttribute="width" multiplier="64:150" id="OXa-nP-02S"/>
+                            <constraint firstItem="ki7-w8-f1v" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="152" id="RKO-pf-mM3"/>
+                            <constraint firstItem="ki7-w8-f1v" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Rjm-Hl-mYX"/>
+                            <constraint firstItem="U3F-6G-NCO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Wvj-gN-60k"/>
+                            <constraint firstItem="ZPn-X9-2Gr" firstAttribute="baseline" secondItem="maT-sy-T71" secondAttribute="firstBaseline" id="ZQh-iq-24b"/>
+                            <constraint firstItem="ffG-d5-uWw" firstAttribute="top" secondItem="U3F-6G-NCO" secondAttribute="bottom" id="aIz-Cy-DaW"/>
+                            <constraint firstItem="maT-sy-T71" firstAttribute="trailing" secondItem="ffG-d5-uWw" secondAttribute="trailing" id="adz-Vr-a1o"/>
+                            <constraint firstItem="17B-xM-sou" firstAttribute="trailing" secondItem="U3F-6G-NCO" secondAttribute="trailing" id="cDn-Gn-aUq"/>
+                            <constraint firstItem="ki7-w8-f1v" firstAttribute="centerX" secondItem="U3F-6G-NCO" secondAttribute="centerX" id="fMM-Em-Sxn"/>
+                            <constraint firstItem="U3F-6G-NCO" firstAttribute="leading" secondItem="ffG-d5-uWw" secondAttribute="leading" id="g3L-lU-jqS"/>
+                            <constraint firstItem="Bmn-f2-KyC" firstAttribute="baseline" secondItem="17B-xM-sou" secondAttribute="firstBaseline" id="hEQ-os-ncs"/>
+                            <constraint firstItem="Bmn-f2-KyC" firstAttribute="top" secondItem="17B-xM-sou" secondAttribute="top" id="jd2-Vg-JaS"/>
+                            <constraint firstItem="ffG-d5-uWw" firstAttribute="height" secondItem="U3F-6G-NCO" secondAttribute="height" id="kJH-tf-OGD"/>
+                            <constraint firstItem="maT-sy-T71" firstAttribute="baseline" secondItem="ZPn-X9-2Gr" secondAttribute="firstBaseline" id="ogn-b3-8yU"/>
+                            <constraint firstItem="maT-sy-T71" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="u0W-sa-Iyg"/>
+                            <constraint firstAttribute="trailing" secondItem="U3F-6G-NCO" secondAttribute="trailing" id="u0Y-dy-wzl"/>
+                            <constraint firstItem="ZPn-X9-2Gr" firstAttribute="leading" secondItem="ffG-d5-uWw" secondAttribute="leading" id="x1X-mL-hjl"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="RKO-pf-mM3"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="blBtn" destination="ZPn-X9-2Gr" id="eAr-LH-hmC"/>
+                        <outlet property="brBtn" destination="maT-sy-T71" id="Iun-XJ-yGB"/>
+                        <outlet property="flBtn" destination="Bmn-f2-KyC" id="bMg-Zq-yVR"/>
+                        <outlet property="frBtn" destination="17B-xM-sou" id="0r3-wE-nDF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="254"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blecar_img.png" width="1024" height="1024"/>
+    </resources>
+</document>
